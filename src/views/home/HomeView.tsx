@@ -1,10 +1,10 @@
-import { Button, Typography } from '@material-ui/core';
 import React from 'react';
-import styled from 'styled-components/macro';
+import { Button, Typography } from '@material-ui/core';
+import { AppLayout } from 'layouts';
 
 export const HomeView = () => {
     return (
-        <StyledHomeView>
+        <AppLayout>
             <Typography variant="h1">Heading 1</Typography>
             <Typography variant="h2">Heading 2</Typography>
             <Typography variant="h3">Heading 3</Typography>
@@ -19,22 +19,13 @@ export const HomeView = () => {
                 assumenda nemo velit esse dolorum delectus!
             </Typography>
 
-            <Typography variant="body2">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
-                ipsam. Autem, similique quae? Ratione non veniam, similique
-                exercitationem eos veritatis rem, molestiae, sequi porro
-                assumenda nemo velit esse dolorum delectus!
-            </Typography>
-
-            <Button variant="contained" color="primary">
+            <Button
+                variant="contained"
+                color="primary"
+                style={{ marginTop: '10px' }}
+            >
                 Button Test
             </Button>
-        </StyledHomeView>
+        </AppLayout>
     );
 };
-
-const StyledHomeView = styled.div`
-    width: 800px;
-    max-width: 90%;
-    margin: 0 auto;
-`;

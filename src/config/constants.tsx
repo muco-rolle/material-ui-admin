@@ -1,4 +1,3 @@
-export const routes = {
-    HOME: '/',
-    DASHBOARD_DEFAULT: '/dashboard/default',
-};
+export enum ROUTES {
+    HOME = '/',
+}

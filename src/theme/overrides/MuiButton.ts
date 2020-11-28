@@ -1,4 +1,3 @@
-import { theme } from 'theme';
 import { shadows } from 'utils';
 
 export const MuiButton = {

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@materiala/components": ["src/components"],
+            "@materiala/assets": ["src/assets"],
+            "@materiala/config": ["src/config"],
+            "@materiala/layout": ["src/layout"],
+            "@materiala/graphql": ["src/graphql"],
+            "@materiala/pages": ["src/pages"],
+            "@materiala/theme": ["src/theme"],
+            "@materiala/utils": ["src/utils"]
+        }
+    }
+}

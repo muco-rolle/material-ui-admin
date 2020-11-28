@@ -1,26 +1,32 @@
 import React from 'react';
-import { Link as RouterLink } from 'react-router-dom';
 import {
     AppBar,
     AppBarProps,
-    colors,
     makeStyles,
     Theme,
     Toolbar,
+    Typography,
 } from '@material-ui/core';
-import clsx from 'clsx';
-import { ROUTES } from 'config';
+import { shadows } from 'utils';
 
 interface HeaderProps extends AppBarProps {}
 
-export const Header = ({ ...restProps }: HeaderProps) => {
+export const Header = ({ className, ...restProps }: HeaderProps) => {
     const classes = useStyles();
 
     return (
-        <AppBar className={clsx(classes.root)} {...restProps}>
-            <Toolbar>
-                <RouterLink to={ROUTES.HOME}>Logo</RouterLink>
-                <div className={classes.flexGrow} />
+        <AppBar
+            style={{ boxShadow: shadows.lg, backgroundColor: 'white' }}
+            position="fixed"
+            className={classes.appBar}
+            {...restProps}
+        >
+            <Toolbar
+                style={{ display: 'flex', justifyContent: 'space-between' }}
+            >
+                <Typography variant="h5">Menu</Typography>
+                <Typography variant="h5">Logo</Typography>
+                <Typography variant="h5">Avatar</Typography>
             </Toolbar>
         </AppBar>
     );
@@ -28,59 +34,11 @@ export const Header = ({ ...restProps }: HeaderProps) => {
 
 const useStyles = makeStyles((theme: Theme) => ({
     root: {
-        boxShadow: 'none',
+        boxShadow: shadows.lg,
+        backgroundColor: 'white',
     },
-    flexGrow: {
-        flexGrow: 1,
-    },
-    search: {
-        backgroundColor: 'rgba(255,255,255, 0.1)',
-        borderRadius: 4,
-        flexBasis: 300,
-        height: 36,
-        padding: theme.spacing(0, 2),
-        display: 'flex',
-        alignItems: 'center',
-    },
-    searchIcon: {
-        marginRight: theme.spacing(2),
-        color: 'inherit',
-    },
-    searchInput: {
-        flexGrow: 1,
-        color: 'inherit',
-        '& input::placeholder': {
-            opacity: 1,
-            color: 'inherit',
-        },
-    },
-    searchPopper: {
-        zIndex: theme.zIndex.appBar + 100,
-    },
-    searchPopperContent: {
-        marginTop: theme.spacing(1),
-    },
-    trialButton: {
-        marginLeft: theme.spacing(2),
-        color: 'white',
-        backgroundColor: colors.green[600],
-        '&:hover': {
-            backgroundColor: colors.green[900],
-        },
-    },
-    trialIcon: {
-        marginRight: theme.spacing(1),
-    },
-    notificationsButton: {
-        marginLeft: theme.spacing(1),
-    },
-    notificationsBadge: {
-        backgroundColor: colors.orange[600],
-    },
-    logoutButton: {
-        marginLeft: theme.spacing(1),
-    },
-    logoutIcon: {
-        marginRight: theme.spacing(1),
+    appBar: {
+        zIndex: theme.zIndex.drawer + 1,
+        color: theme.palette.grey['700'],
     },
 }));

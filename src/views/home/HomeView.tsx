@@ -12,7 +12,62 @@ export const HomeView = () => {
             <Typography variant="h5">Heading 5</Typography>
             <Typography variant="h6">Heading 6</Typography>
 
-            <Typography variant="body1">
+            <Typography paragraph>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                ipsam. Autem, similique quae? Ratione non veniam, similique
+                exercitationem eos veritatis rem, molestiae, sequi porro
+                assumenda nemo velit esse dolorum delectus!
+            </Typography>
+
+            <Typography paragraph>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                ipsam. Autem, similique quae? Ratione non veniam, similique
+                exercitationem eos veritatis rem, molestiae, sequi porro
+                assumenda nemo velit esse dolorum delectus!
+            </Typography>
+            <Typography paragraph>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                ipsam. Autem, similique quae? Ratione non veniam, similique
+                exercitationem eos veritatis rem, molestiae, sequi porro
+                assumenda nemo velit esse dolorum delectus!
+            </Typography>
+            <Typography paragraph>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                ipsam. Autem, similique quae? Ratione non veniam, similique
+                exercitationem eos veritatis rem, molestiae, sequi porro
+                assumenda nemo velit esse dolorum delectus!
+            </Typography>
+            <Typography paragraph>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                ipsam. Autem, similique quae? Ratione non veniam, similique
+                exercitationem eos veritatis rem, molestiae, sequi porro
+                assumenda nemo velit esse dolorum delectus!
+            </Typography>
+            <Typography paragraph>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                ipsam. Autem, similique quae? Ratione non veniam, similique
+                exercitationem eos veritatis rem, molestiae, sequi porro
+                assumenda nemo velit esse dolorum delectus!
+            </Typography>
+            <Typography paragraph>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                ipsam. Autem, similique quae? Ratione non veniam, similique
+                exercitationem eos veritatis rem, molestiae, sequi porro
+                assumenda nemo velit esse dolorum delectus!
+            </Typography>
+            <Typography paragraph>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                ipsam. Autem, similique quae? Ratione non veniam, similique
+                exercitationem eos veritatis rem, molestiae, sequi porro
+                assumenda nemo velit esse dolorum delectus!
+            </Typography>
+            <Typography paragraph>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
+                ipsam. Autem, similique quae? Ratione non veniam, similique
+                exercitationem eos veritatis rem, molestiae, sequi porro
+                assumenda nemo velit esse dolorum delectus!
+            </Typography>
+            <Typography paragraph>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea,
                 ipsam. Autem, similique quae? Ratione non veniam, similique
                 exercitationem eos veritatis rem, molestiae, sequi porro

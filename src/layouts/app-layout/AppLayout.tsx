@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import { makeStyles } from '@material-ui/styles';
 import { Header, Sidebar } from './components';
-import { Theme, Typography } from '@material-ui/core';
+import { Theme } from '@material-ui/core';
 
 type AppLayoutProps = {
     children: ReactNode;

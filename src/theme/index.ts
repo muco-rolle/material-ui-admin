@@ -1,6 +1,6 @@
 import { createMuiTheme } from '@material-ui/core';
 
-// import overrides from './overrides';
+import { overrides } from './overrides';
 
 export const theme = createMuiTheme({
     palette: {
@@ -91,5 +91,5 @@ export const theme = createMuiTheme({
             letterSpacing: '0.33px',
         },
     },
-    // overrides,
+    overrides,
 });

@@ -5,6 +5,7 @@ import { CssBaseline, MuiThemeProvider } from '@material-ui/core';
 import { getRoutes } from 'config';
 import { theme } from 'theme';
 
+import 'react-perfect-scrollbar/dist/css/styles.css'; // perfect scrollbar styles
 import 'typeface-inter'; // global font
 
 export function App() {

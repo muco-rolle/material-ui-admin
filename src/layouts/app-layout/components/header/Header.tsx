@@ -40,5 +40,6 @@ const useStyles = makeStyles((theme: Theme) => ({
     appBar: {
         zIndex: theme.zIndex.drawer + 1,
         color: theme.palette.grey['700'],
+        height: '70px',
     },
 }));

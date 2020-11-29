@@ -4,6 +4,9 @@ import { overrides } from './overrides';
 
 export const theme = createMuiTheme({
     palette: {
+        background: {
+            default: '#F7FAFC',
+        },
         primary: {
             '50': '#ffe8fd',
             '100': '#efc3eb',
@@ -79,16 +82,24 @@ export const theme = createMuiTheme({
             fontSize: '1rem',
             letterSpacing: '-0.05px',
         },
+
         body2: {
-            fontSize: '0.071rem',
+            fontSize: '12px',
             letterSpacing: '-0.04px',
+            lineHeight: '18px',
         },
-        button: {
-            textTransform: 'none',
-        },
+
         caption: {
             fontSize: '11px',
             letterSpacing: '0.33px',
+            lineHeight: '13px',
+        },
+        overline: {
+            fontSize: '11px',
+            fontWeight: 500,
+            letterSpacing: '0.33px',
+            lineHeight: '13px',
+            textTransform: 'uppercase',
         },
     },
     overrides,
